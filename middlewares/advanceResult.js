@@ -1,6 +1,6 @@
 // another test
 const catchAsync = require('./asyncHandler');
-
+const name = 'tran anh tu';
 const advanceResult = (model, populate) =>
   catchAsync(async (req, res, next) => {
     let query;
