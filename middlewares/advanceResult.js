@@ -1,5 +1,3 @@
-// this is catchAsync handler
-const name = 'devcamper_api';
 const catchAsync = require('./asyncHandler');
 
 const advanceResult = (model, populate) =>
